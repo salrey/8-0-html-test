@@ -48,6 +48,7 @@
       alt="Bill Murray!"
       width="300"
     />
+    <h3>Submit your blog post</h3>
     <form>
       <label for="post-title">
         Title
@@ -58,7 +59,34 @@
           placeholder="Enter a title..."
         />
       </label>
-      <button type="submit">Create Post</button>
+      <label for="post-blog">
+        Your post
+        <input
+          id="post-blog"
+          name="blog"
+          type="text"
+          placeholder="Enter a blog post..."
+        />
+      </label>
+      <p>
+        Post visibility:
+        <label>
+          Public
+          <input
+            id="public"
+            name="visibility"
+            type="radio"
+            value="public"
+            checked
+          />
+        </label>
+        <label>
+          Private
+          <input id="private" name="visibility" type="radio" value="private" />
+        </label>
+        <br />
+        <button type="submit">Create Post</button>
+      </p>
     </form>
   </body>
 </html>
