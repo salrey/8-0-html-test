@@ -57,6 +57,7 @@
           name="title"
           type="text"
           placeholder="Enter a title..."
+          required
         />
       </label>
       <label for="post-blog">
@@ -66,9 +67,15 @@
           name="blog"
           type="text"
           placeholder="Enter a blog post..."
+          required
         />
       </label>
-      <p>
+      <br />
+      <label>
+        Email
+        <input id="email" name="email" type="email" />
+      </label>
+      <div>
         Post visibility:
         <label>
           Public
@@ -101,7 +108,7 @@
         </label>
         <br />
         <button type="submit">Create Post</button>
-      </p>
+      </div>
     </form>
   </body>
 </html>
