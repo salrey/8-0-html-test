@@ -56,40 +56,48 @@
           id="post-title"
           name="title"
           type="text"
-          placeholder="Enter a title..."
+          placeholder="Enter title..."
           required
         />
       </label>
+      <br />
       <label for="post-blog">
-        Your post
+        Blog post
         <input
           id="post-blog"
           name="blog"
           type="text"
-          placeholder="Enter a blog post..."
+          placeholder="Enter blog post..."
           required
         />
       </label>
       <br />
       <label>
         Email
-        <input id="email" name="email" type="email" />
+        <input id="email" name="email" type="email" placeholder="Enter email" />
       </label>
       <div>
-        Post visibility:
         <label>
-          Public
-          <input
-            id="public"
-            name="visibility"
-            type="radio"
-            value="public"
-            checked
-          />
-        </label>
-        <label>
-          Private
-          <input id="private" name="visibility" type="radio" value="private" />
+          Post visibility:
+          <label>
+            Public
+            <input
+              id="public"
+              name="visibility"
+              type="radio"
+              value="public"
+              checked
+            />
+          </label>
+          <label>
+            Private
+            <input
+              id="private"
+              name="visibility"
+              type="radio"
+              value="private"
+            />
+          </label>
         </label>
         <br />
         <label>
